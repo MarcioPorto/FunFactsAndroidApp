@@ -25,7 +25,7 @@ public class FactBook {
 
     // Method (abilities: things the object can do)
     public String getFact() {
-        String fact= "";
+        String fact = "";
         // Randomly select a fact.
         Random randomGenerator = new Random();  // Construct a new number generator.
         int randomNumber = randomGenerator.nextInt(mFacts.length);
